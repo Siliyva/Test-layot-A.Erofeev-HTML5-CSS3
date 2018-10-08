@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'), url('../fonts/raleway-regular.woff') format('woff'), url('../fonts/raleway-regular.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    margin: 0 auto;
+    width: 1920px;
+    box-shadow: 2px 2px 2px 2px #e6d8d8;
+}
+
+/*-------start slider-------*/
+
+.slider {
+    background-image: url(../image/photo.png);
+    position: relative;
+    height: 1024px;
+
+}
+
+.header {
+    display: flex;
+    margin-bottom: 285px;
+    padding-left: 375px;
+    padding-right: 375px;
+}
+
+.header .logos {
+    fill: #ffffff;
+    padding-top: 40px;
+}
+
+.header .logos:hover svg {
+    fill: #00bff3;
+}
+
+.header .waxom_logo {
+    font-family: 'raleway-regular', sans-serif;
+    fill: #ffffff;
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.header .waxom_logo:hover svg {
+    fill: #00bff3;
+}
+
+.header .menu {
+    padding-top: 60px;
+    margin-left: 220px;
+}
+
+.header .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .menu ul li {
+    padding-right: 15px;
+}
+
+.header .menu ul li a {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .menu ul li a:hover {
+    color: #00bff3;
+}
+
+.header .icon {
+    fill: #fff;
+    padding: 55px 15px 0 15px;
+}
+
+.header .icon:hover svg {
+    fill: #00bff3;
+}
+
+.slider_text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slider_text .arrow {
+    fill: #d3c1ad;
+    opacity: 0.50;
+    padding: 60px 150px 0;
+}
+
+.slider_text .arrow:hover svg {
+    fill: #00bff3;
+}
+
+.slider_text .unique {
+    text-align: center;
+}
+
+.slider_text .unique a {
+    display: block;
+    font-family: 'raleway-regular', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-radius: 3px;
+    background-color: #998675;
+    margin-left: 173px;
+    width: 170px;
+    height: 53px;
+}
+
+.slider_text .unique a:hover {
+    background-color: #00bff3;
+}
+
+.slider_text h3 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 14px;
+
+}
+
+.slider_text h2 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.slider_text p {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    line-height: 24px;
+    padding-bottom: 52px;
+    width: 525px;
+}
+
+
+
+.circle {
+    display: block;
+    background-color: #8c8c8c;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.circle:hover {
+    background-color: #fff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 98%;
+    bottom: 19px;
+    align-items: center;
+
+}
+
+.circle-active {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d3c1ad;
+    box-sizing: border-box;
+    background-color: #111;
+    width: 15px;
+    height: 15px;
+}
