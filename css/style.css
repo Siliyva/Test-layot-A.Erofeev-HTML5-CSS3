@@ -198,3 +198,33 @@ body {
     width: 15px;
     height: 15px;
 }
+
+
+/*-------start block-------*/
+
+
+.block {
+    display: flex;
+    padding-left: 375px;
+    padding-right: 375px;
+    padding-top: 80px;
+}
+
+.block .icon a {
+    text-decoration: none;
+}
+
+.block .icon svg {
+    padding-bottom: 29px;
+    padding-left: 125px;
+}
+
+.block .icon h3 {
+    padding-bottom: 19px;
+    text-align: center;
+}
+
+.block .icon p {
+    text-align: center;
+}
+
