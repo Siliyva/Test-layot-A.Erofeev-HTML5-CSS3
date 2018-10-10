@@ -26,7 +26,6 @@ body {
     background-image: url(../image/photo.png);
     position: relative;
     height: 1024px;
-
 }
 
 .header {
@@ -37,28 +36,29 @@ body {
 }
 
 .header .logos {
-    fill: #ffffff;
+    display: flex;
+    color: #fff;
+    fill: #fff;
     padding-top: 40px;
-}
-
-.header .logos:hover svg {
-    fill: #00bff3;
+    text-decoration: none;
 }
 
 .header .waxom_logo {
     font-family: 'raleway-regular', sans-serif;
-    fill: #ffffff;
+    padding-top: 10px;
     font-size: 34px;
     font-weight: 400;
-    margin-top: 55px;
+    text-transform: capitalize;
 }
 
-.header .waxom_logo:hover svg {
-    fill: #00bff3;
+.header .logos:hover {
+    color: #c7b29a;
+    fill: #c7b29a;
 }
 
 .header .menu {
     padding-top: 60px;
+    margin-right: 16px;
     margin-left: 220px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .header .menu ul li {
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 .header .menu ul li a {
@@ -80,7 +80,8 @@ body {
 }
 
 .header .menu ul li a:hover {
-    color: #00bff3;
+    color: #c7b29a;
+    ;
 }
 
 .header .icon {
@@ -89,7 +90,7 @@ body {
 }
 
 .header .icon:hover svg {
-    fill: #00bff3;
+    fill: #c7b29a;
 }
 
 .slider_text {
@@ -122,7 +123,6 @@ body {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-
     border-radius: 3px;
     background-color: #998675;
     margin-left: 173px;
@@ -130,8 +130,14 @@ body {
     height: 53px;
 }
 
-.slider_text .unique a:hover {
-    background-color: #00bff3;
+
+.unique a:hover {
+    background-color: #c7b29a;
+}
+
+.unique a:active {
+    background-color: #363636;
+     color: white;
 }
 
 .slider_text h3 {
@@ -210,21 +216,56 @@ body {
     padding-top: 80px;
 }
 
-.block .icon a {
+.block .icon {
+    padding-right: 34px;
     text-decoration: none;
+}
+
+.block .icon:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+    align-self: flex-end;
+}
+
+.block .icon:hover:after {
+    background-color: #c7b299;
+}
+
+.block .icon:hover svg,
+.block .icon:hover h3 {
+    fill: #c7b299;
+    color: #c7b299;
 }
 
 .block .icon svg {
     padding-bottom: 29px;
-    padding-left: 125px;
+    padding-left: 100px;
+    fill: #555;
 }
 
 .block .icon h3 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #555;
+    font-size: 22px;
+    font-weight: 600;
     padding-bottom: 19px;
     text-align: center;
 }
 
 .block .icon p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 30px;
     text-align: center;
+    width: 244px;
 }
 
+
+/*------start realization------*/
