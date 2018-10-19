@@ -42,8 +42,6 @@ body {
     padding-top: 40px;
     text-decoration: none;
     transition: color 0.5s ease-out, fill 0.5s ease-out;
-
-
 }
 
 .header .logos:hover {
@@ -85,7 +83,7 @@ body {
 
 .header .menu ul li a:hover {
     color: #c7b29a;
-    ;
+
 }
 
 .header .icon {
@@ -302,68 +300,214 @@ body {
     width: 757px;
 }
 
-.realization img {
-    position: relative;
-
-}
-
 .left {
     position: absolute;
-    top: 72px;
-    left: -30px;
+    top: 307px;
+    left: 317px;
     width: 770px;
     height: 400px;
     z-index: 0;
-    transition: 
-        width 1s ease-out, 
-        height 1s ease, 
+    transition:
+        width 1s ease-out,
+        height 1s ease,
         top 1s ease-out;
 }
 
 .left:hover {
-    z-index: 2;
+    z-index: 4;
     cursor: pointer;
     width: 800px;
-    height: 430px;
-    top: 12px;
+    height: 435px;
+    top: 285px;
 }
 
 .center {
     position: absolute;
-    top: -413px;
-    left: 200px;
+    top: 230px;
+    left: 546px;
     z-index: 1;
     width: 770px;
     height: 482px;
-    transition: 
-        width 1s ease-out, 
-        height 1s ease, 
+    transition:
+        width 1s ease-out,
+        height 1s ease,
         top 1s ease-out;
 }
 
 .center:hover {
     width: 800px;
     height: 512px;
-    top: -513px;
+    top: 200px;
+    z-index: 4;
 }
 
 .right {
     position: absolute;
-    top: -816px;
-    left: 430px;
+    top: 307px;
+    left: 776px;
     width: 770px;
     height: 400px;
     z-index: 0;
-    transition: 
-        width 1s ease-out, 
+    transition:
+        width 1s ease-out,
         height 1s ease,
         top 1s ease-out;
 }
 
 .right:hover {
-    z-index: 2;
+    z-index: 4;
     cursor: pointer;
     width: 800px;
-    height: 430px;
-    top: -916px;
+    height: 435px;
+    top: 285px;
 }
+
+
+/*-------start multipurpose-------*/
+
+.multipurpose {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    position: relative;
+    z-index: 3;
+    padding: 48px 375px 50px 375px;
+}
+
+.multipurpose span {
+    font-family: 'raleway-regular', sans-serif;
+    color: #c7b299;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.multipurpose h2 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+
+.multipurpose p {
+    font-family: Montserrat;
+    color: #615855;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.multipurpose a {
+    display: block;
+    font-family: 'raleway-regular', sans-serif;
+    border-radius: 3px;
+    background-color: #998675;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+}
+
+.multipurpose a:hover {
+    background-color: #c7b29a;
+}
+
+.multipurpose a:active {
+    background-color: #363636;
+    color: white;
+}
+
+
+/*-------start projects-------*/
+
+.projects {
+    background-color: #fbfaf8;
+    padding: 80px 375px 80px 375px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects .headline h2 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #555555;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.projects .headline p {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding-bottom: 40px;
+    width: 684px;
+    text-align: center;
+}
+
+.projects .menu {
+    margin-bottom: 48px;
+}
+
+.projects .menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.projects .menu li {}
+
+.projects .menu a {
+    font-family: Montserrat;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin: 10px;
+    letter-spacing: 0.5px;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 135px;
+    height: 32px;
+}
+
+.projects .menu a:hover {
+    background-color:  #998675;
+    color:  #ffffff;
+}
+
+.projects .menu a:active {
+    background-color: #363636;
+    color: white;
+}
+
+.projects .images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.projects article {}
+
+.projects article img {}
+
+.projects article div {}
+
+.projects article h4 {}
+
+.projects article span {}
+
+.projects button {}
