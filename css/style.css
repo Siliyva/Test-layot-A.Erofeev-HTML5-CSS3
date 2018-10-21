@@ -697,7 +697,7 @@ video[poster="video/poster.jpg"] {
 
 .excellent {
     display: flex;
-    background-color:  #fbfaf8;
+    background-color: #fbfaf8;
     padding: 80px 375px 80px 375px;
 }
 
@@ -712,7 +712,7 @@ video[poster="video/poster.jpg"] {
 
 .excellent-text p {
     font-family: Montserrat;
-    color:  #8c8c8c;
+    color: #8c8c8c;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -733,7 +733,7 @@ video[poster="video/poster.jpg"] {
     margin-left: 79px;
 }
 
-.details_text  {
+.details_text {
     font-family: Montserrat;
     color: #8c8c8c;
     cursor: pointer;
@@ -774,3 +774,54 @@ video[poster="video/poster.jpg"] {
 
 /*-------start brown-------*/
 
+.brown {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    padding: 80px 375px 80px 375px;
+
+}
+
+.brown .brown-text {
+   text-align: center;
+}
+
+.brown svg {
+    padding-bottom: 30px;
+}
+
+.brown svg,
+.brown-text-span {
+    color: #c7b299;
+    fill: #c7b299;
+}
+
+.brown-text-span {
+    display: block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+
+}
+
+.number {
+    display: block;
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 36px;
+    padding-bottom: 21px;
+}
+
+.brown-text:after {
+    content: "";
+    display: block;
+    align-self: flex-end;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 2px;
+    width: 30px;
