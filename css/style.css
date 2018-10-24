@@ -185,6 +185,15 @@ body {
     width: 525px;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    width: 98%;
+    bottom: 19px;
+}
+
 .circle {
     display: block;
     background-color: #8c8c8c;
@@ -197,16 +206,7 @@ body {
 
 .circle:hover {
     background-color: #fff;
-}
-
-.pagination {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    align-items: center;
-    width: 98%;
-    bottom: 19px;
-
+    opacity: 0.3;
 }
 
 .circle-active {
@@ -887,6 +887,8 @@ video[poster="video/poster.jpg"] {
 
 .recent-article img {
     vertical-align: top;
+    height: 219px;
+    width: 370px;
 }
 
 .recent-article span {
@@ -936,7 +938,9 @@ video[poster="video/poster.jpg"] {
 
 .recent-article-text {
     background-color: rgba(119, 119, 119, 0);
-    border: 1px solid #f8f8f8;
+    border-right: 1px solid #f8f8f8;
+    border-left: 1px solid #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
     box-sizing: border-box;
     padding: 30px 0 30px 30px;
 }
@@ -987,6 +991,46 @@ video[poster="video/poster.jpg"] {
     left: 70px;
 }
 
+.recent-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 191px;
+    width: 98%;
+}
+
+.recent-circle_link {
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.3;
+    height: 11px;
+    width: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.recent-circle_link:hover {
+    background-color: #000;
+}
+
+.circle-active {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d3c1ad;
+    box-sizing: border-box;
+    background-color: #111;
+    width: 15px;
+    height: 15px;
+}
+
+.circle-active:hover {
+    background-color: #d3c1ad;
+}
+
 .recent-box-non {
     display: none;
     background-color: #000;
@@ -1003,6 +1047,7 @@ video[poster="video/poster.jpg"] {
 .recent-article:hover .recent-article-text {
     display: block;
     background-color: #362f2d;
+    border: none;
 }
 
 .recent-button {
@@ -1038,8 +1083,6 @@ video[poster="video/poster.jpg"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 47px;
-    height: 47px;
     border: 1px solid #d1d1d1;
     border-radius: 50%;
     font-weight: 400;
@@ -1061,3 +1104,7 @@ video[poster="video/poster.jpg"] {
     border-color: #555;
     color: #fff;
     background-color: #777;
+}
+
+
+/*-------start advertising-------*/
