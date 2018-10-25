@@ -53,6 +53,8 @@ body {
 
 .header .logos {
     display: flex;
+    position: relative;
+    z-index: 1;
     color: #fff;
     fill: #fff;
     padding-top: 40px;
@@ -74,6 +76,8 @@ body {
 }
 
 .header .menu {
+    position: relative;
+    z-index: 1;
     padding-top: 60px;
     margin-right: 16px;
     margin-left: 220px;
@@ -102,6 +106,8 @@ body {
 }
 
 .header .icon {
+    position: relative;
+    z-index: 1;
     fill: #fff;
     padding: 55px 15px 0 15px;
     transition: transform 1s;
@@ -113,6 +119,8 @@ body {
 }
 
 .slider_text {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
 
@@ -794,7 +802,6 @@ video[poster="video/poster.jpg"] {
     justify-content: space-around;
     background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
     padding: 80px 375px;
-
 }
 
 .brown .brown-text {
@@ -818,7 +825,6 @@ video[poster="video/poster.jpg"] {
     font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
-
 }
 
 .number {
@@ -841,6 +847,7 @@ video[poster="video/poster.jpg"] {
     height: 2px;
     width: 30px;
 }
+
 
 /*-------start recent-------*/
 
@@ -1032,10 +1039,8 @@ video[poster="video/poster.jpg"] {
 }
 
 .recent-box-non {
-    display: none;
     background-color: #000;
     opacity: 0.5;
-    cursor: pointer;
     position: absolute;
     top: 0;
     left: 0;
@@ -1045,7 +1050,6 @@ video[poster="video/poster.jpg"] {
 
 .recent-article:hover .recent-box-non,
 .recent-article:hover .recent-article-text {
-    display: block;
     background-color: #362f2d;
     border: none;
 }
@@ -1108,3 +1112,31 @@ video[poster="video/poster.jpg"] {
 
 
 /*-------start advertising-------*/
+
+.advertising {
+    background: url(../image/footer-logos.jpg) no-repeat;
+    position: relative;
+    padding: 140px 375px 140px;
+    width: 1920px;
+}
+
+.advertising-none {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 489px;
+}
+
+.advertising a {
+    text-decoration: none;
+}
+
+.advertising img {
+    position: relative;
+    z-index: 1;
+    padding-right: 90px;
+}
+
