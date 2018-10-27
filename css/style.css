@@ -1107,7 +1107,6 @@ video[poster="video/poster.jpg"] {
 .recent-button .button:active:before {
     border-color: #555;
     color: #fff;
-    background-color: #777;
 }
 
 
@@ -1116,7 +1115,7 @@ video[poster="video/poster.jpg"] {
 .advertising {
     background: url(../image/footer-logos.jpg) no-repeat;
     position: relative;
-    padding: 140px 375px 140px;
+    padding: 140px 375px 136px;
     width: 1920px;
 }
 
@@ -1142,4 +1141,219 @@ video[poster="video/poster.jpg"] {
 
 .advertising img:hover {
     opacity: 0.3;
+}
+
+
+
+/*-------start footer-------*/
+
+.footer {
+    display: flex;
+    background-color: #191919;
+    padding: 80px 375px 120px;
+}
+
+.footer-logo {
+    position: relative;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .footer-svg {
+    display: flex;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer svg {
+    fill: #fff;
+
+}
+
+.footer .footer-svg:hover {
+    color: #c7b299;
+    fill: #c7b299;
+}
+
+.footer h3 {
+    font-family: 'raleway-regular', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-logo p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.71;
+    padding-bottom: 30px;
+    width: 228px;
+}
+
+.footer-read {
+    position: relative;
+    font-family: Montserrat;
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-read:before {
+    content: "";
+    display: block;
+    border: 5px solid transparent;
+    border-left: 8px solid #d1d1d1;
+    position: absolute;
+    top: 2px;
+    left: 70px;
+}
+
+.footer-read:hover,
+.footer-read:hover:before {
+    color: #c7b299;
+}
+
+.footer .footer-waxom-logo {
+    font-family: 'raleway-regular', sans-serif;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.footer-section {
+    padding-left: 40px;
+}
+
+.footer-time time {
+    font-family: Montserrat;
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 20px 0 10px 0;
+}
+
+.footer-time p {
+    font-family: Montserrat;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 260px;
+}
+
+.border:after {
+    content: "";
+    display: block;
+    align-self: flex-end;
+    background-color: #252525;
+    height: 2px;
+    width: 270px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-time a:hover time {
+    color: #fff;
+
+}
+
+.footer-time a:hover p {
+    color: #c7b299;
+}
+
+.footer-text p {
+    font-family: Montserrat;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footer-text time {
+    font-family: Montserrat;
+    color: #363636;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.blue {
+    font-family: Montserrat;
+    color: #00bff3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.blue:hover {
+    color: #545454;
+}
+
+.footer-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-image img {
+    padding: 5px;
+    height: 98px;
+    width: 130px;
+}
+
+.footer-image a:hover {
+    opacity: 0.5;
+}
+
+
+
+/*-------start copy-------*/
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 45px 375px 52px;
+}
+
+.copyright p {
+    font-family: Montserrat;
+    color: #545454;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0 10px;
+
+}
+
+.copyright span {
+    font-family: Montserrat;
+    color: #959595;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.copy, .designed {
+    display: flex;
+    position: relative;
+}
+
+.copy .first, .second, .third {
+    border-left: 1px solid #545454;
+}
+
+.designed .first {
+     border-left: 1px solid #545454;
 }
