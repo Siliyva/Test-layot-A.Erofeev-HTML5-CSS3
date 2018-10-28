@@ -1300,13 +1300,13 @@ video[poster="video/poster.jpg"] {
     color: #545454;
 }
 
-.footer-image {
+.footer-image-head {
     display: flex;
     flex-wrap: wrap;
 }
 
 .footer-image img {
-    padding: 5px;
+    padding: 4px;
     height: 98px;
     width: 130px;
 }
